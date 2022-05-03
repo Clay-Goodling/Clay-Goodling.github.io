@@ -1,3 +1,3 @@
 function main() {
-  document.getElementById("body").innerHTML = "Hello, World!";
+  document.getElementById("body").innerHTML = "Hello, World";
 }
