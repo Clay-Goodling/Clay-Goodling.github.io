@@ -1,0 +1,49 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  font-family: "Courier", monospace;
+}
+
+h1 {
+  font-size: 10vh;
+  margin: 0;
+  padding: 5vh
+}
+
+.title {
+  background-color: black;
+  color: white;
+  height: 40%;
+  margin: 0px;
+  padding: 0;
+}
+
+.content {
+  background-color: #33bb5e;
+  height: 60%;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container {
+  background-color: black;
+  height: 25vh;
+  width: 25vw;
+  margin: 0px;
+  border: 1vh solid black;
+  border-radius: 1vh;
+}
+
+.frame {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  transform: scale(0.25);
+  transform-origin: top left;
+}
+
