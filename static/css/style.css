@@ -84,8 +84,8 @@ h1 {
 }
 
 img {
-  width: 25vw;
-  height: 25vw;
+  width: min(25vw, 25vh);
+  height: min(25vw, 25vh);
   border: 1vh solid black;
   border-radius: 50%;
   margin: 5vh;
@@ -97,7 +97,7 @@ img {
   border: 1vh solid black;
   border-radius: 1vh;
   padding: 3vh 3vw;
-  margin: 5vh;
+  margin: min(5vh, 5vw);
   overflow-y: auto;
   max-height: 40vh;
   max-width: 60vw;
