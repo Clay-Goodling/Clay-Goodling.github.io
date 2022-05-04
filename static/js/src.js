@@ -87,6 +87,7 @@ function main() {
   about.addImage("static/img/James_Goodling_2022.jpg")
   about.addText('static/text/bio.txt');
 
+
   let projects = new Page("Projects", back="Home");
   main.addSubPage(projects);
 
@@ -96,6 +97,9 @@ function main() {
   let academicWork = new Page("Academic Work", back="Projects");
   projects.addSubPage(academicWork);
 
+
   let contact = new Page("Contact Me", back="Home");
   main.addSubPage(contact);
+
+  
 }
