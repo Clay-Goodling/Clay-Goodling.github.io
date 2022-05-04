@@ -60,31 +60,18 @@ h1 {
   font-size: 8vh;
   margin: 0;
   margin-top: auto;
-  padding: 5vh;
+  padding: 3vh;
 }
 
 .content {
   background-color: #33bb5e;
-  height: 50vh;
+  height: 60vh;
   margin: 0px;
-  padding: 5vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   overflow: hidden;
-}
-
-.textbox {
-  background-color: black;
-  color: white;
-  border: 1vh solid black;
-  border-radius: 1vh;
-  padding: 5vh;
-  margin: 5vh;
-  overflow-y: auto;
-  max-height: 40vh;
-  max-width: 50vw;
 }
 
 .frame-container {
@@ -97,8 +84,68 @@ h1 {
 }
 
 img {
-  width: 40vh;
-  height: 40vh;
+  width: 25vw;
+  height: 25vw;
   border: 1vh solid black;
   border-radius: 50%;
+  margin: 5vh;
+}
+
+.textbox {
+  background-color: black;
+  color: white;
+  border: 1vh solid black;
+  border-radius: 1vh;
+  padding: 3vh 3vw;
+  margin: 5vh;
+  overflow-y: auto;
+  max-height: 40vh;
+  max-width: 60vw;
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 60vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  padding: 5vh;
+}
+
+.contact-subject {
+  width: 30vw;
+}
+
+.contact-message {
+  height: 100%;
+  margin: 3vh 0;
+}
+
+.send-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.submit-button {
+  background-color: black;
+  border: 1vh solid black;
+  color: white;
+  border-radius: 1vh;
+}
+
+.contact-details {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contact-details p {
+  margin: 0;
+  text-align: center;
 }
