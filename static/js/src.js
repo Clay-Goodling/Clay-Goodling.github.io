@@ -61,7 +61,7 @@ class ContactForm {
       .classed("contact-details", true);
 
     details.append("p").text("james@goodling.dev");
-    details.append("p").text("(802) 291-4053");
+    details.append("p").text("(802) 266-0778");
   }
 }
 
