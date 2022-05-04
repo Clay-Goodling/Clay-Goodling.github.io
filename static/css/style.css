@@ -41,6 +41,8 @@ body {
 .button {
   background-color: #33bb5e;
   border: 1vh solid #33bb5e;
+  color: white;
+  font-weight: bold;
   border-radius: 1vh;
   font-size: 4vh;
   user-select: none;
