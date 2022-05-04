@@ -5,11 +5,26 @@ body {
   font-family: "Courier", monospace;
 }
 
-h1 {
-  font-size: 8vh;
-  margin: 0;
-  margin-top: auto;
-  padding: 5vh;
+.frame {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.active {
+  transform: scale(1);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.mini {
+  transform: scale(0.25);
+  transform-origin: top left;
+  user-select: none;
+  z-index: -1;
 }
 
 .title {
@@ -23,17 +38,50 @@ h1 {
   align-items: flex-start;
 }
 
+.button {
+  background-color: #33bb5e;
+  border: 1vh solid #33bb5e;
+  border-radius: 1vh;
+  font-size: 4vh;
+  user-select: none;
+}
+
+.active .button {
+  display: inline-block;
+}
+
+.mini .button {
+  display: none;
+}
+
+h1 {
+  font-size: 8vh;
+  margin: 0;
+  margin-top: auto;
+  padding: 5vh;
+}
+
 .content {
   background-color: #33bb5e;
-  height: 60vh;
+  height: 50vh;
   margin: 0px;
+  padding: 5vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.container {
+.textbox {
+  background-color: black;
+  color: white;
+  border: 1vh solid black;
+  border-radius: 1vh;
+  padding: 5vh;
+  margin: 5vh;
+}
+
+.frame-container {
   background-color: black;
   height: 25vh;
   width: 25vw;
@@ -42,33 +90,9 @@ h1 {
   border-radius: 1vh;
 }
 
-.frame {
-  width: 100vw;
-  height: 100vh;
-  margin: 0px;
-  padding: 0px;
-  position: absolute;
-  transform: scale(0.25);
-  transform-origin: top left;
-}
-
-.button {
-  display: none;
-  background-color: #33bb5e;
-  border: 1vh solid #33bb5e;
-  border-radius: 1vh;
-  font-size: 4vh;
-  user-select: none;
-}
-
-.active {
-  transform: scale(1);
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.active .button {
-  display: inline-block;
+img {
+  width: 40vh;
+  height: 40vh;
+  border: 1vh solid black;
+  border-radius: 50%;
 }
