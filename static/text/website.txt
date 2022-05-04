@@ -1,0 +1,1 @@
+I constructed this website from scratch, using the d3 framework. All of my code is availible at <a href="https://github.com/Clay-Goodling/Clay-Goodling.github.io">github.com/Clay-Goodling/Clay-Goodling.github.io</a>.

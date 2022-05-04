@@ -148,11 +148,11 @@ function main() {
   let academicWork = new Page("Academic Work", back="Projects");
   projects.addSubPage(academicWork);
 
-  let aw1 = new Page("Academic Work 1", "Academic Work");
+  let aw1 = new Page("Personal Website", "Academic Work");
   academicWork.addSubPage(aw1);
 
-  aw1.addContent(new Image("static/img/placeholder.jpg"));
-  aw1.addContent(new TextBox("static/text/placeholder.txt"));
+  aw1.addContent(new Image("static/img/website.png"));
+  aw1.addContent(new TextBox("static/text/website.txt"));
 
   let aw2 = new Page("Academic Work 2", "Academic Work");
   academicWork.addSubPage(aw2);
