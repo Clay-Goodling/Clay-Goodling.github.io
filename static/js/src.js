@@ -154,6 +154,12 @@ function main() {
   aw2.addContent(new TextBox("static/text/compiler.txt"));
   aw2.addContent(new Image("static/img/compiler.png"));
 
+  let aw3 = new Page("Meta-Interpreter", "Academic Work");
+  academicWork.addSubPage(aw3);
+
+  aw3.addContent(new Image("static/img/interpreter.png"));
+  aw3.addContent(new TextBox("static/text/interpreter.txt"));
+
 
   let contact = new Page("Contact Me", back="Home");
   home.addSubPage(contact);
