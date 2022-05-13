@@ -117,32 +117,26 @@ function main() {
   home.addSubPage(about);
 
   about.addContent(new Image("static/img/James_Goodling_2022.jpg"));
-  about.addContent(new TextBox("static/text/placeholder.txt"));
+  about.addContent(new TextBox("static/text/bio.txt"));
 
 
   let projects = new Page("Projects", back="Home");
   home.addSubPage(projects);
 
-  let personalProjects = new Page("Personal Projects", back="Projects");
+  let personalProjects = new Page("Personal/Club Projects", back="Projects");
   projects.addSubPage(personalProjects);
 
-  let pp1 = new Page("Personal Project 1", "Personal Projects");
+  let pp1 = new Page("Aerial Robotics", "Personal/Club Projects");
   personalProjects.addSubPage(pp1);
 
-  pp1.addContent(new Image("static/img/placeholder.jpg"));
-  pp1.addContent(new TextBox("static/text/placeholder.txt"));
+  pp1.addContent(new Image("static/img/arc.png"));
+  pp1.addContent(new TextBox("static/text/arc.txt"));
 
-  let pp2 = new Page("Personal Project 2", "Personal Projects");
+  let pp2 = new Page("Cottage Connects", "Personal/Club Projects");
   personalProjects.addSubPage(pp2);
 
-  pp2.addContent(new TextBox("static/text/placeholder.txt"));
-  pp2.addContent(new Image("static/img/placeholder.jpg"));
-
-  let pp3 = new Page("Personal Project 1", "Personal Projects");
-  personalProjects.addSubPage(pp3);
-
-  pp3.addContent(new Image("static/img/placeholder.jpg"));
-  pp3.addContent(new TextBox("static/text/placeholder.txt"));
+  pp2.addContent(new TextBox("static/text/cc.txt"));
+  pp2.addContent(new Image("static/img/cc.png"));
 
 
   let academicWork = new Page("Academic Work", back="Projects");
@@ -154,17 +148,11 @@ function main() {
   aw1.addContent(new Image("static/img/website.png"));
   aw1.addContent(new TextBox("static/text/website.txt"));
 
-  let aw2 = new Page("Academic Work 2", "Academic Work");
+  let aw2 = new Page("Compiler", "Academic Work");
   academicWork.addSubPage(aw2);
 
-  aw2.addContent(new TextBox("static/text/placeholder.txt"));
-  aw2.addContent(new Image("static/img/placeholder.jpg"));
-
-  let aw3 = new Page("Academic Work 1", "Academic Work");
-  academicWork.addSubPage(aw3);
-
-  aw3.addContent(new Image("static/img/placeholder.jpg"));
-  aw3.addContent(new TextBox("static/text/placeholder.txt"));
+  aw2.addContent(new TextBox("static/text/compiler.txt"));
+  aw2.addContent(new Image("static/img/compiler.png"));
 
 
   let contact = new Page("Contact Me", back="Home");

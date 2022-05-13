@@ -149,3 +149,7 @@ form {
   margin: 0;
   text-align: center;
 }
+
+a {
+  color: aqua;
+}

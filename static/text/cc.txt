@@ -1,0 +1,5 @@
+For my grandfather's 75th birthday, I built a list-serve application to be run off of a raspberry pi. It was made available to the cottage community where my grandparents spend their summers, and was intended to be a platform for sharing interesting photos or thoughts, organizing group gatherings, buying and selling goods and services, and generally serving as a community bulletin board.
+<br/>
+The project was written entirely in python, using only the standard libraries to receive, process and send emails.
+<br/>
+The source can be found at <a href="https://github.com/Clay-Goodling/Cottage-Connects">github.com/Clay-Goodling/Cottage-Connects</a>

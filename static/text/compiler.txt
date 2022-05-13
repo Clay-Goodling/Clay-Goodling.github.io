@@ -1,0 +1,3 @@
+For the final project of CS 4120 Introduction to Compliers, I worked with a team of four to build a compiler of a C-like language. The project involved lexing and parsing code into an abstract syntax tree, converting that into an internal representation, and then generating x86 assembly. We also implemented a number of performance optimizations such as loop unrolling and copy propagation.
+<br/>
+The project was written in Java, and the source code can be found at <a href="https://github.com/Clay-Goodling/Compiler">github.com/Clay-Goodling/Compiler</a>.

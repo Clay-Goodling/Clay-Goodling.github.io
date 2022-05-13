@@ -1,0 +1,5 @@
+I am a senior in the engineering college of Cornell University working towards a B.S. in computer science. I will be continuing here in the fall as an M.Eng. student, also in computer science.
+</br>
+I got my start in programming in middle school, where I wrote a small game about popping balloons in Lua for iOS, though I never published it and it is now unfortunately lost to time. Before college, I was a member of various programming clubs, including both FIRST and VEX robotics clubs.
+</br>
+Now that I have had the opportunity to study computer science formally, I have done my best to give myself the broadest background in as many things CS as I could, taking coursed in everything from computer architecture to compilers and interpreters to operating systems to language design to software engineering. Now as I move forward to a Master's I intend to make full use of that foundation as I specialize into robotic software.

@@ -1,0 +1,7 @@
+I joined the Aerial Robotics club in my first year at Cornell as a part of the electrical sub-team. At the time, I worked directly under one of the founding members as he attempted to build a flight controller capable of running on a raspberry pi in real time.
+<br/>
+In my second year, I was promoted to electrical sub-team lead with the graduation of my mentor, and the club began to tackle mission 9 of the <a href="http://www.aerialroboticscompetition.org/">International Aerial Robotics Competition</a>. We established a flight capable prototype drone that year, before Covid effectively shut the club down.
+<br/>
+I stepped down from my roll as lead following the Covid shutdown as I was away from campus, but following a complete restructuring of the team in the fall of 2021 we are back to work on the competition.
+<br/>
+The club's website can be found at <a href="https://cuaerialrobotics.github.io/">cuaerialrobotics.github.io</a>.
